@@ -1,0 +1,87 @@
+
+
+.select-plan-page{
+
+   
+  >.plans,>h1,>p{
+   margin-bottom: 15px; 
+  }
+
+  >p{
+    color: $c-g;
+            font-size: 2ch;
+            line-height: 1.5;
+  }
+
+  .plans{
+
+    .plan:hover{
+        border: 1px solid $purplish-b!important;
+    }
+    .plan{
+        cursor: pointer;
+        
+        border-radius: 10px;
+        padding: 20px;
+        display: flex;
+
+        .about-p{
+            margin-left: 10px;
+
+            h3,p{
+                color: $marine-b;
+            }
+h3{
+    margin-bottom: 5px;
+}
+
+p{
+    margin-top: 5px;
+    font-size: .699rem;
+    color: $marine-b;
+}
+            small{
+                color: $c-g;
+            }
+
+        }
+    }
+
+    
+
+    .plan:not(:last-child){
+        margin-bottom: 10px;
+    }
+  }
+
+  .plan-duration{
+    cursor: pointer;
+    font-size: .555rem;
+    background-color: $mna;
+    display: flex;
+
+align-items: center;
+justify-content: center;
+padding: 10px;
+border-radius: 10px;
+
+    .__plan-duration-radio{
+        margin: 0 20px;
+        width: 45px;
+        height: 20px;
+        background-color: black;
+        border-radius: 20px;
+        display: flex;
+        padding: 3px;
+        .item{
+            
+           width: 14px;
+           height: 14px;
+           border-radius: 50%;
+            background-color: $white;
+        }
+    }
+
+   
+  }
+}

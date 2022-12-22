@@ -1,0 +1,61 @@
+.pick-add-on-com{
+    
+    h1,> p{
+        margin-bottom: 20px;
+    }
+
+    h1,.add-ons-feature-com  h3{
+        color: $marine-b;
+    }
+    p, .add-ons-feature-com small{
+        color: $c-g;
+    }
+
+    
+    
+
+        .add-ons-feature-com{
+        
+            .feature label:hover{
+                border: 1px solid $purplish-b!important;
+            }
+            .feature label{
+                cursor: pointer;
+                display: flex;
+                
+                padding: 25px;
+                border-radius: 10px;
+                .feature-box-add{
+                    margin-left: 15px;
+                    display: flex;
+                    flex-grow: 1;
+                    align-items: center;
+                    justify-content: space-between;
+                    .feature-box-add-item{
+                        p{
+                            color: $marine-b;
+                            font-weight: bold;
+
+                        }
+                        small{
+                            font-size: .7rem;
+                        }
+                    }
+
+                    > small{
+                        color: $purplish-b;
+                        font-weight: bold;
+                    }
+                }
+            }
+
+            .feature:not(:last-child){
+                margin-bottom: 15px;
+            }
+
+            .feature input{
+                width: 15px;
+            }
+        }
+    
+}

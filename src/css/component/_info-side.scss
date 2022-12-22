@@ -1,0 +1,123 @@
+.info-side{
+background-color: $abt;
+padding: 30px 20px;
+margin-top: 27px;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+@media (min-width: 900px) {
+    background-color: transparent;
+    margin: 0;
+    width: 650px;
+    padding: 0 5rem;
+    height: 100%;
+    
+}
+    .personal-info{
+
+        color: $marine-b;
+        >.title,.about{
+            margin-bottom: 10px;
+        }
+
+        .about{
+            color: $c-g;
+            font-size: 1.9ch;
+            line-height: 1.5;
+        }
+        .personal-form{
+            margin-top: 20px;
+        
+
+            
+            >.form-input{
+                position: relative;
+                margin-bottom: 15px;
+               font-size: .8rem;
+               font-weight: bold;
+              
+                input{
+                    cursor: pointer;
+                    margin-top: 5px;
+                    width: 100%;
+                    padding: 10px;
+                 border: 1px solid $c-g;
+                 border-radius: 5px;
+                 
+                &:hover{
+                    border: 1px solid $purplish-b;
+                } 
+                }
+                
+             
+            
+            }
+
+        
+
+            .form-validate{
+
+
+                &::before{
+                    content: "this field is required!!";
+                    position: absolute;
+                    right: 0;
+                    color: red;
+                }
+                input{
+                    border: 1px solid red;
+                }
+            }
+            
+        }
+
+    }
+
+    
+
+
+
+    .btn-in{
+
+        display: none;
+
+        
+
+        padding: 10px;
+        
+    @media (min-width: 900px) {
+        display: flex;
+    }
+    
+    .btn-i{
+        padding: 10px;
+        
+        border: none;
+       
+        border-radius: 5px;
+    
+    }
+    
+    .btn-1{
+        color: $c-g;
+        background-color: transparent;
+        font-weight: bold;
+    }
+
+    .btn-1:hover{
+        color: $marine-b;
+    }
+    
+    .btn-2{
+        background-color: $marine-b;
+        margin-left: auto;
+        color: $white;
+    }
+
+    .btn-2:hover{
+       background-color: $pastel-b;
+    }
+    }
+}  

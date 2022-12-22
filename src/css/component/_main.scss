@@ -1,0 +1,120 @@
+
+
+
+h1,*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: $l-g;
+    font-size: 16px;
+    font-family: sans-serif;
+    background-color: $mna;   
+}
+
+
+
+.container-main{
+  
+   @media (max-width: 900px) {
+    background-image: url('/public/images/bg-sidebar-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+   }
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+    padding-top: 30px;
+
+   
+                .main-com{
+                
+                margin: 0 10px;
+                margin-bottom: 10px;
+                
+@media (max-width: 900px) {
+    max-width: 400px;
+    align-self: center;
+    margin: 0 20px;
+}
+
+                @media (min-width: 900px) {
+                    display: flex;
+                    background-color: $white;
+                    border-radius: 10px;
+                   width: 60rem;
+                   margin: 0 30px;
+                   position: absolute;
+                   top: 50%;
+                   left: 50%;
+                   transform: translate(-50%,-50%);
+                   height: 80vh;
+                   padding: 15px;
+                   justify-content: space-between;
+                }
+                // @media (max-width: 900px) {
+                //     max-width: 350px;
+                // border: 1px solid red;
+                // align-self: center;
+                // }
+        //         @media (min-width: 900px) {
+        //             width: 900px;
+        //             border: 1px solid green;
+        // display: flex;
+       
+        //         }
+                
+}
+
+
+
+
+    .btn{
+
+    @media (min-width: 900px) {
+        display: none;
+    }
+   
+    padding: 10px;
+    background-color: whitesmoke;
+   display: flex;
+
+.btn-i{
+    padding: 10px;
+    
+    border: none;
+  
+    border-radius: 5px;
+
+}
+
+.btn-1{
+    color: $c-g;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+
+
+.btn-2{
+    background-color: $marine-b;
+    margin-left: auto;
+    color: $white;
+}
+
+
+}
+
+.btn-i{
+    cursor: pointer;
+
+    
+}
+}
+
